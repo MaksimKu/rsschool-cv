@@ -1,0 +1,393 @@
+body {
+    width: 1280px;
+    margin-left: calc((100% - 1280px)/2);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+   
+    background-color: #FFFFFF;
+}
+    .logo {
+        height: 60px;
+        width: 186px;
+        left: 0px;
+        top: 0px;
+        margin-left: 40px;
+        margin-top: 31px;
+
+    }
+        .logo-title {
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 110%;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.06em;
+            color: #545454;
+        }
+        .logo-subtitle {
+            margin-top: 10px;
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 15px;
+            /* identical to box height */
+            padding-left: 4px;
+           
+            letter-spacing: 0.1em;
+
+            /* color-light-xl */
+
+            color: #292929;
+        }
+    .nav-menu {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;  /* выровнять по центру по высоте*/
+        list-style: none; /*Убираем стандартные маркеры */
+        margin-top: 45px;
+        margin-right: 40px;
+        width: 443px;
+        height: 27px;
+    }
+        li {
+            height: 26px;
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 160%;
+            color: #CDCDCD;
+
+        }
+            .nav-a {
+                font-family: 'Arial';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 160%;
+                color: #545454;
+                
+            }
+            #nav-a2 {
+                border-bottom: 3px solid #F1CDB3;
+                color: #292929;
+            }
+            .nav-a:link {
+                text-decoration: none;
+            }
+            .nav-a:hover {
+                text-decoration: none;
+                border-bottom: 3px solid #F1CDB3;
+            }
+main {
+    width: 1280px;
+    height: 1342px;
+    background-color: #F6F6F6;
+}
+    .pets-h1 {
+        height: 150px;
+        margin: 0px;
+        padding-top: 80px;
+        padding-left: 3px;
+        justify-self: center;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 130%;/* or 45px */
+        /* display: flex; */
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+    }
+    .fer {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 270px 270px 270px 270px;
+        grid-template-rows: 435px 435px;
+        row-gap: 30px;
+        column-gap: 40px;
+    }
+        .katrin, .jennifer, .woody, .sophia, .Timmy, .Charly, .Skarlet, .Freddy {
+            justify-self: center;
+            width: 270px;
+            background-color:#FAFAFA;
+            border-radius: 9px;
+        }
+            .katrin:hover {
+                cursor: pointer;
+            }
+            .katrin:hover .pets-button {
+                background-color: #F1CDB3; 
+            }
+            .jennifer:hover {
+                cursor: pointer;
+            }
+            .jennifer:hover .pets-button {
+                background-color: #F1CDB3; 
+            }
+            .woody:hover {
+                cursor: pointer;
+            }
+            .woody:hover .pets-button {
+                background-color: #F1CDB3; 
+            }
+            .sophia:hover {
+                cursor: pointer;
+            }
+            .sophia:hover .pets-button {
+                background-color: #F1CDB3; 
+            }
+            .Timmy:hover {
+                cursor: pointer;
+            }
+            .Timmy:hover .pets-button {
+                background-color: #F1CDB3; 
+            }
+            .Charly:hover {
+                cursor: pointer;
+            }
+            .Charly:hover .pets-button {
+                background-color: #F1CDB3; 
+            }
+            .Skarlet:hover {
+                cursor: pointer;
+            }
+            .Skarlet:hover .pets-button {
+                background-color: #F1CDB3; 
+            }
+            .Freddy:hover {
+                cursor: pointer;
+            }
+            .Freddy:hover .pets-button {
+                background-color: #F1CDB3; 
+            }
+        h4 {
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;/* identical to box height */
+            display: flex;
+            letter-spacing: 0.06em;/* color-dark-l */
+            color: #545454;
+            justify-self: center;
+            justify-content: center;
+        }
+        .div-button {
+            display: flex;
+            justify-content: center;
+            margin-top: 29px;
+        }
+        .pets-button {
+            width: 187px;
+            height: 52px;
+            background-color: #FAFAFA;
+            border: 2px solid #F1CDB3;
+            box-sizing: border-box;
+            border-radius: 100px;
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 130%;
+            /* identical to box height, or 22px */
+
+            letter-spacing: 0.06em;
+
+            /* color-dark-3xl */
+
+            color: #292929; 
+        }
+        
+    .pag-div {
+        height: 52px;
+        display: grid;
+        justify-content: center;
+        margin-top: 60px;
+        grid-template-columns: 52px 52px 52px 52px 52px;
+        column-gap: 20px;
+    }
+        .pag-button {
+            width: 52px;
+            height: 52px;
+            background-color: #FAFAFA;
+            border: 2px solid #FDDCC4;
+            box-sizing: border-box;
+            border-radius: 100px;
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 115%;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.06em;
+            color: #CDCDCD;
+        }
+            #dl {
+                border: 2px solid #CDCDCD;
+            }
+                #dl:disabled {
+                color: #CDCDCD;
+             }
+            #l {
+                border: 2px solid #CDCDCD;
+            }
+            #l:disabled {
+                color: #CDCDCD;
+             }
+            #one {
+                color: #292929;
+                background-color: #FDDCC4;
+            }
+                #one:hover {
+                    cursor: pointer;
+                    background-color: #F1CDB3;
+                    border: 2px solid #F1CDB3;
+                }
+            #r {
+                color: #292929; 
+            }
+                #r:hover {
+                    cursor: pointer;
+                }
+            #dr {
+                color: #292929;
+            }
+            #dr:hover {
+                cursor: pointer;
+            }
+
+footer {
+    display: flex;
+    height: 350px;
+    background: url(../../assets/images/footer-gradient-background.png);
+
+}
+    .div-left {
+        width: 280px;
+        margin-top: 56px;
+        margin-left: 40px;
+    }
+        .left-h {
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 35px;
+            line-height: 130%;
+            letter-spacing: 0.06em;
+            color: #FFFFFF;
+        }
+        .email {
+            display: flex;
+            margin-top: 41px;
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 115%;
+            letter-spacing: 0.06em;
+            color: #F1CDB3;
+            align-items: center;
+            
+        }
+            #email {
+                margin-right: 20px;
+            }
+                .email:hover {
+                    cursor: pointer;
+                }
+                /* .email:link {
+                    src: url(https://www.youtube.com/);
+                } */
+        .tel {
+            display: flex;
+            margin-top: 43px;
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 115%;
+            letter-spacing: 0.06em;
+            color: #F1CDB3;
+            align-items: center;
+        }
+            #tel {
+                margin-right: 20px; 
+            }
+            .tel:hover {
+                cursor: pointer;
+            }
+
+    .div-rechts {
+        width: 310px;
+        margin-top: 55px;
+        margin-left: 160px;
+    }
+        .rechts-h1 {
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 35px;
+            line-height: 130%;
+            letter-spacing: 0.06em;
+            color: #FFFFFF;
+        }
+            .maps1 {
+                margin-top: 33px;
+                font-family: 'Georgia';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 115%;
+                letter-spacing: 0.06em;
+                color: #F1CDB3;
+                display: flex;
+                align-items: center;
+            }
+            .maps1:hover {
+                cursor: pointer;
+            }
+            .maps2 {
+                margin-top: 32px;
+                font-family: 'Georgia';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 115%;
+                letter-spacing: 0.06em;
+                color: #F1CDB3;
+                display: flex;
+                align-items: center;
+            }
+            .maps2:hover {
+                cursor: pointer;
+            }
+                #maps {
+                    margin-left: -2px;
+                    margin-right: 20px;
+                }
+                    #maps:hover {
+                        cursor: pointer;
+                    }
+                #maps2 {
+                    margin-left: 0px;
+                    margin-right: 0px;
+                }
+        .cont-img {
+            margin-left: 150px;
+            margin-top: 39px;
+        }
+
