@@ -1,0 +1,652 @@
+body {
+    width: 1280px;
+    margin-left: calc((100% - 1280px)/2);
+    margin-top: 0px;
+}
+header {
+        display: flex;
+        justify-content: space-between;
+        height: 180px;
+       
+        background-image: url("../../assets/images/as.png");
+    }
+        .logo {
+            height: 60px;
+            width: 186px;
+            left: 0px;
+            top: 0px;
+            margin-left: 40px;
+            margin-top: 60px;
+
+        }
+            .logo-title {
+                font-family: 'Georgia';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 110%;
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.06em;
+                color: #F1CDB3;
+            }
+            .logo-subtitle {
+                margin-top: 10px;
+                font-family: 'Arial';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 15px;
+                /* identical to box height */
+                padding-left: 4px;
+               
+                letter-spacing: 0.1em;
+
+                /* color-light-xl */
+
+                color: #FFFFFF;
+            }
+        .nav-menu {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;  /* выровнять по центру по высоте*/
+            list-style: none; /*Убираем стандартные маркеры */
+            margin-top: 76px;
+            margin-right: 40px;
+            width: 443px;
+            height: 27px;
+        }
+            li {
+                height: 26px;
+                font-family: 'Arial';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 160%;
+                color: #CDCDCD;
+
+            }
+                .nav-a {
+                    font-family: 'Arial';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 160%;
+                    color: #FAFAFA;
+                    
+                }
+                #nav-a1 {
+                    border-bottom: 3px solid #F1CDB3;
+                }
+                .nav-a:link {
+                    text-decoration: none;
+                }
+                .nav-a:hover {
+                    text-decoration: none;
+                    border-bottom: 3px solid #F1CDB3;
+                }
+main {
+    /*margin-top: 180px;*/
+}
+    .head-start {
+        height: 728px;
+        width: 1280px;
+        margin-top: 0px;
+        background-image: url("../../assets/images/as.png");
+        background-position: center -180px;
+    }
+        .heading {
+            height: 114px;
+            width: 310px;
+            padding-top: 163px;
+            padding-left: 40px;
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 44px;
+            line-height: 130%;
+            color: #FFFFFF;
+        }
+        .subheading {
+            height: 72px;
+            width: 460px;
+            margin-top: 42px;
+            margin-left: 40px;
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 160%;
+            color: #CDCDCD;
+        }
+        .head-button {
+            width: 207px;
+            height: 52px;
+            background: #F1CDB3;
+            border-radius: 100px;
+            border: none;
+            margin-top: 42px;
+            margin-left: 40px;
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 130%;
+            letter-spacing: 0.06em;
+            color: #292929;
+        }
+        .head-button:hover {
+            cursor: pointer;
+            background-color:  #FDDCC4;}
+
+        .head-img {
+            position: absolute;
+            left: calc(50% - 698px/2 + 251px);
+            top: 180px;
+        }
+    .about {
+        height: 588px;
+        top: 908px;
+    }
+        .about-img {
+            height: 408px;
+            position: absolute;
+            margin: 80px 765px 100px 215px;
+        }
+        .about-text-h {
+            width: 370px;
+            height: 90px;
+            position: absolute;
+            left: 827px;
+            margin-top: 95px;
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 35px;
+            line-height: 130%;
+            line-height: 130%;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.06em;
+        }
+        .about-text-p {
+            width: 380px;
+            position: absolute;
+            width: 430px;
+            height: 96px;
+            left: 827px;
+            margin-top: 209px;
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 160%;
+            color: #4C4C4C;
+                    }
+        .about-text-p1 {
+            width: 380px;
+            position: absolute;
+            width: 430px;
+            height: 96px;
+            left: 827px;
+            margin-top: 330px;
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 160%;
+            color: #4C4C4C;
+                    }  
+    .pets {
+        height: 877px;
+        background: #F6F6F6;;
+        display: grid;
+        grid-template-areas: 
+                        "g a a a h"
+                        "g b c d h"
+                        "g f f f h";
+        grid-template-rows: 230px 435px 1fr;
+        grid-template-columns: 1fr 1fr 450px 1fr 1fr;
+    }
+        .pets-h1 {
+            grid-area: a;
+            justify-self: center;
+            width: 400px;
+            height: 90px;
+            margin-top: 81px;
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 35px;
+            line-height: 130%;/* or 45px */
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.06em;
+        }
+        .katrin {
+            grid-area: b;
+            justify-self: end;
+            width: 270px;
+            background-color:#FAFAFA;
+            border-radius: 9px;
+            
+        }
+        .katrin:hover {
+            cursor: pointer;
+        }
+        .katrin:hover .pets-button {
+            background-color: #F1CDB3; 
+        }
+            h4 {
+                font-family: 'Georgia';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 23px;/* identical to box height */
+                display: flex;
+                letter-spacing: 0.06em;/* color-dark-l */
+                color: #545454;
+                justify-self: center;
+                justify-content: center;
+            }
+            .div-button {
+                display: flex;
+                justify-content: center;
+                margin-top: 29px;
+            }
+                .pets-button {
+                    width: 187px;
+                    height: 52px;
+                    background-color: #FAFAFA;
+                    border: 2px solid #F1CDB3;
+                    box-sizing: border-box;
+                    border-radius: 100px;
+                    font-family: 'Georgia';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 130%;
+                    /* identical to box height, or 22px */
+
+                    letter-spacing: 0.06em;
+
+                    /* color-dark-3xl */
+
+                    color: #292929; 
+                }
+                .pets-button:hover {
+                    cursor: pointer;
+                }
+        .jennifer {
+            grid-area: c;
+            justify-self: center;
+            width: 270px;
+            background-color:#FAFAFA;
+            border-radius: 9px;
+            
+        }
+        .jennifer:hover {
+            cursor: pointer;
+        }
+        .jennifer:hover .pets-button {
+            background-color: #F1CDB3; 
+        }
+        .woody {
+            grid-area: d;
+            width: 270px;
+            background-color:#FAFAFA;
+            border-radius: 9px;
+        }
+        .woody:hover {
+            cursor: pointer;
+        }
+        .woody:hover .pets-button {
+            background-color: #F1CDB3; 
+        }
+        .pets-button-while {
+            grid-area: f;
+            width: 261px;
+            height: 52px; 
+            justify-self: center;  
+            margin-top: 60px;
+            margin-left: 1px;
+            background: #F1CDB3;
+            border-radius: 100px;
+            border: none;
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 130%;
+            letter-spacing: 0.06em;
+            color: #292929;
+        }
+            .pets-button-while:hover {
+                cursor: pointer;
+                background-color:  #FDDCC4;
+            }
+        .left {
+            grid-area: g;
+            width: 52px;
+            height: 52px;
+            background-color: #F6F6F6;
+            border: 2px solid #F1CDB3;
+            box-sizing: border-box;
+            border-radius: 100px;
+            justify-self: center;
+            align-self: center;
+            margin-top: 18px;
+            margin-right: 12px;
+            
+        }
+            .left:hover {
+                cursor: pointer;
+                background-color: #F1CDB3;
+            }
+        .rehts {
+            grid-area: h;
+            width: 52px;
+            height: 52px;
+            background-color: #F6F6F6;
+            border: 2px solid #F1CDB3;
+            box-sizing: border-box;
+            border-radius: 100px;
+            justify-self: center;
+            align-self: center;
+            margin-top: 18px;
+            margin-right: -12px;
+        }
+        .rehts:hover {
+            cursor: pointer;
+            background-color: #F1CDB3;
+        }
+
+    .help {
+        height: 589px;
+       
+    }
+
+        .help-h1 {
+            color: #545454;
+            height: 205px;
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 35px;
+            line-height: 130%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            letter-spacing: 0.06em;
+            margin-bottom: 0px;
+        }
+        .help-icon-top {
+            display: grid;
+            grid-template-columns: 83px 150px 60px 154px 101px;
+            grid-template-rows: 113px;
+            justify-content: center;
+            grid-gap: 120px;
+            margin-top: 2px;
+        }
+            /* .help-div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            } */
+                .icon-img {
+                    margin-bottom: 24px;
+                    height: 60px;
+                    
+                }
+                .div-icon {
+                    
+                    font-family: 'Georgia';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 115%;
+                    justify-content: end;
+                    align-items: center;
+                    text-align: center;
+                    letter-spacing: 0.06em;
+                    color: #545454;
+                }
+            .help-icon-botton {
+                display: grid;
+                grid-template-columns: 89px 101px 166px 144px;
+                grid-template-rows: 113px;
+                justify-content: center;
+                grid-gap: 120px;
+                margin-top: 56px;
+                }
+                    #vit {
+                        width: 60px;
+                        height: 54.16px;
+                        margin-top: 2px;
+                        margin-bottom: 27px;
+                    }
+                    #osh {
+                        width: 60px;
+                        height: 52.43px;
+                        margin-top: 3px;
+                        margin-bottom: 28px;
+                    }
+    .donation {
+        display: flex;
+        height: 462px;
+        background-color: #F6F6F6;
+    }
+        .don-img {
+            width: 505px;
+            height: 261px;
+            margin-left: 183px;
+            margin-top: 90px;
+
+        }
+
+        .don-div {
+            margin-left: 30px;
+            margin-top: 80px;
+            margin-bottom: 100px;
+        }
+            .don-h {
+                font-family: 'Georgia';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 35px;
+                line-height: 130%;
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.06em;
+                color: #545454;
+            }
+
+            .don-nam-bank {
+                font-family: 'Georgia';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 110%;
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.06em;
+                color: #545454;
+                margin-top: 19px;
+            }
+
+            .don-numb {
+                width: 349px;
+                height: 43px;
+                display: flex;
+                background: #F1CDB3;
+                border-radius: 9px;
+                align-items: center;
+                font-family: 'Georgia';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 115%;
+                letter-spacing: 0.06em;
+                color: #545454;
+                margin-top: 19px;
+            }
+                #ic-cr {
+                    margin-left: 15px;
+                    margin-right: 15px;
+                }
+                .don-numb:hover {
+                    cursor: pointer;
+                }
+            .don-text {
+                width: 380px;
+                height: 72px;
+                font-family: 'Arial';
+                font-style: italic;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 18px;
+                color: #B2B2B2;
+                margin-top: 21px;
+            }
+footer {
+    display: flex;
+    height: 350px;
+    background: url(../../assets/images/footer-gradient-background.png);
+
+}
+    .div-left {
+        width: 280px;
+        margin-top: 56px;
+        margin-left: 40px;
+    }
+        .left-h {
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 35px;
+            line-height: 130%;
+            letter-spacing: 0.06em;
+            color: #FFFFFF;
+        }
+        .email {
+            display: flex;
+            margin-top: 41px;
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 115%;
+            letter-spacing: 0.06em;
+            color: #F1CDB3;
+            align-items: center;
+            
+        }
+            #email {
+                margin-right: 20px;
+            }
+                .email:hover {
+                    cursor: pointer;
+                }
+                /* .email:link {
+                    src: url(https://www.youtube.com/);
+                } */
+        .tel {
+            display: flex;
+            margin-top: 43px;
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 115%;
+            letter-spacing: 0.06em;
+            color: #F1CDB3;
+            align-items: center;
+        }
+            #tel {
+                margin-right: 20px; 
+            }
+            .tel:hover {
+                cursor: pointer;
+            }
+
+    .div-rechts {
+        width: 310px;
+        margin-top: 55px;
+        margin-left: 160px;
+    }
+        .rechts-h1 {
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 35px;
+            line-height: 130%;
+            letter-spacing: 0.06em;
+            color: #FFFFFF;
+        }
+            .maps1 {
+                margin-top: 33px;
+                font-family: 'Georgia';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 115%;
+                letter-spacing: 0.06em;
+                color: #F1CDB3;
+                display: flex;
+                align-items: center;
+            }
+            .maps1:hover {
+                cursor: pointer;
+            }
+            .maps2 {
+                margin-top: 32px;
+                font-family: 'Georgia';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 115%;
+                letter-spacing: 0.06em;
+                color: #F1CDB3;
+                display: flex;
+                align-items: center;
+            }
+            .maps2:hover {
+                cursor: pointer;
+            }
+                #maps {
+                    margin-left: -2px;
+                    margin-right: 20px;
+                }
+                    #maps:hover {
+                        cursor: pointer;
+                    }
+                #maps2 {
+                    margin-left: 0px;
+                    margin-right: 0px;
+                }
+        .cont-img {
+            margin-left: 150px;
+            margin-top: 39px;
+        }
+
+
+        
+
+
+.logo-subtitl {
+    /*padding: 10px 20px; margin: 30px; border: 5px solid #040;}*/
+    position: relative; top: 20px;
+    padding: 10px 15px 20px 25px;
+    color: aqua;
+}
+#r {
+    color: blue;
+}
+ /* background: url(noise_lines_transparent@2X.png),
+         radial-gradient(100% 215.42% at 0% 0%,
+          #5B483A 0%, #262425 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+           /* #211F20;
+           background-position: center -90px;
+           background-repeat: no-repeat; */ 
